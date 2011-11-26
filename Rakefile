@@ -19,7 +19,7 @@ end
 desc "Go to TravisCI status page"
 task :travis do
   require "launchy"
-  Launchy.open("http://travis-ci.org/#!/engineyard/engineyard-recipes")
+  Launchy.open("http://travis-ci.org/#!/engineyard/uthanon")
 end
 desc 'Alias for cucumber:ok'
 task :cucumber => 'cucumber:ok'
